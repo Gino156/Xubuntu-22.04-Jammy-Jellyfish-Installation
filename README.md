@@ -19,14 +19,17 @@ Create for a guest username and password
 
 ## Hardware
 Recommended Base Memory: 4096 MB (Note: This will do if you have 8 GB Ram in your device)
+
 Processor: 2
 
 ## Virtual hard disk
 Set the Disk Size atleast: 30GB
+
 Proceed to "Next"
 
 ## Begin the unattended installation
 Click the Show (green arrow button) and you'll presented with a VM window
+
 Take time to install and wait for the finish button
 
 ## You might possible to see this error, but disregard this and Start the Machine.
@@ -34,18 +37,30 @@ Take time to install and wait for the finish button
 
 ## Setting correct sudo permissions
 Navigate to users and group- click the icon left of your window, type "users", click "Users and Groups"
+
 click "Manage Groups"
+
 find "sudo"
+
 Add yourself to sudo
+
 Rebooot your VM:
+
 To open terminal: press Ctrl + Alt + T and type "reboot" and press enter
+
 Alternatively, just click the icon, look for power icon and restart
 
 ## Test your newly gained sudo privileges
 Open terminal
+
 use this command:
+
 sudo apt update
+
 sudo apt upgrade
+
 Enter your provided password
-Done
+
+Done!
+
 shutdown your VM
